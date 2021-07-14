@@ -6,7 +6,7 @@ import Nav from './nav';
 
 const Header = (props) => {
     return (
-        <div className="header-container">
+        <header className="header-container">
             <div className="upper-container">
                 <div className="logo">
                     <Logo />
@@ -20,7 +20,7 @@ const Header = (props) => {
                     <Nav />
                 </div>
             </div>
-        </div>
+        </header>
     )
 };
 
